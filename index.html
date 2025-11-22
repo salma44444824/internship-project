@@ -7,5 +7,31 @@
 <body>
     <h1> Hi Welcome to My Week 3 Deployed Project!</h1>
     <p>This page is hosted automatically using GitHub Pages, demonstrating my understanding of continuous deployment.</p>
+    
+    <!-- Task 2: Footer added using the feature/project-footer branch -->
+    <p>This project is proudly maintained by salma4444824.</p> 
+
 </body>
 </html>
+```
+
+---
+
+### Action Plan: Complete Task 2 and Get Screenshot 8
+
+Please try these steps again in order:
+
+1.  **Open** your local `index.html` file in VS Code.
+2.  **Copy all the text** from the box above and **paste it**, replacing all the existing content in your `index.html` file.
+3.  **Save** the file.
+4.  **Execute the following commands** in your terminal:
+
+```bash
+# 1. Commit the change on the feature branch:
+git add index.html
+git commit -m "feat: Added project maintenance footer to index.html"
+
+# 2. Switch to master, merge with --no-ff, and push (Creates Screenshot 8!)
+git checkout master
+git merge --no-ff feature/project-footer -m "Merge branch 'feature/project-footer'"
+git push origin master
