@@ -1,5 +1,7 @@
 # Internship Project Core Study
 
+## Week 4: Advanced Workflow Study
+
 ## Week 1 Summary: Git Fundamentals
 
 This project serves as the practical application for my graduation internship study on Distributed Version Control (Git). The first week focused entirely on core Git architecture and the local commit workflow.
